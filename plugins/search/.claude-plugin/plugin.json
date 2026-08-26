@@ -1,0 +1,28 @@
+{
+  "name": "search",
+  "displayName": "Bonsai Search",
+  "description": "Search engineering skills for Elasticsearch and OpenSearch: autocomplete, unified database search, and vector float-bloat fixes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bonsai (One More Cloud)",
+    "email": "max@onemorecloud.com",
+    "url": "https://bonsai.io"
+  },
+  "homepage": "https://github.com/omc/search-skills",
+  "repository": "https://github.com/omc/search-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "elasticsearch",
+    "opensearch",
+    "search",
+    "autocomplete",
+    "database-search",
+    "vector-search",
+    "embeddings"
+  ],
+  "skills": [
+    "./skills/bonsai-autocomplete",
+    "./skills/bonsai-database-search",
+    "./skills/bonsai-fix-float-bloat"
+  ]
+}

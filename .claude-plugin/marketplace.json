@@ -1,0 +1,35 @@
+{
+  "name": "bonsai",
+  "owner": {
+    "name": "Bonsai (One More Cloud)",
+    "email": "max@onemorecloud.com",
+    "url": "https://bonsai.io"
+  },
+  "description": "Bonsai's AI Search Skills for AI coding assistants, following the Agent Skills spec.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "search",
+      "source": "./plugins/search",
+      "description": "Search engineering skills for Elasticsearch and OpenSearch: autocomplete, unified database search, and vector float-bloat fixes.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Bonsai (One More Cloud)",
+        "email": "max@onemorecloud.com",
+        "url": "https://bonsai.io"
+      },
+      "homepage": "https://github.com/omc/search-skills",
+      "repository": "https://github.com/omc/search-skills",
+      "license": "Apache-2.0",
+      "keywords": [
+        "elasticsearch",
+        "opensearch",
+        "search",
+        "autocomplete",
+        "database-search",
+        "vector-search",
+        "embeddings"
+      ]
+    }
+  ]
+}
